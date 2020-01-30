@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  padding-top: 142px;
+}
+img {
+  display: block;
+}
+body, html {
+  height: 100%;
+}
+.botlecan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.botles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.botlebox {
+  margin: 0 20px;
+  position: relative;
+}
+.botlebox img{
+  max-width: 90%;
+  margin: auto
+}
+.filbotle {
+  position: absolute;
+  background: url("../images/coke.png") no-repeat;
+  background-position: bottom center;
+  height: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transition: height 0.4s linear;
+  -webkit-transition: height 0.4s linear;
+  -moz-transition: height 0.4s linear;
+  -ms-transition: height 0.4s linear;
+  -o-transition: height 0.4s linear;
+  background-size: 90%;
+}
+.select-box{
+  width:100px;
+  margin-left:1%;
+}
+.btl-form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  background: #f3f3f3;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.btl-formdet,.btn-formtop{
+  display:flex;
+  justify-content: center;
+}
+.btn-formtop{
+  margin-bottom: 20px;
+}
+.btn-formtop select{
+  padding: 5px 10px;
+  width:200px;
+}
+.btl-formdet h4{
+  padding: 0 25px;
+  font-weight: normal;
+  font-size: 14px;
+  border-right: 1px solid #ddd;
+  color: #888;
+  margin:0;
+  text-align: center;
+}
+.btl-formdet h4:last-child{
+  border:0;
+}
+.btl-formdet h4 span{
+  display:block;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
